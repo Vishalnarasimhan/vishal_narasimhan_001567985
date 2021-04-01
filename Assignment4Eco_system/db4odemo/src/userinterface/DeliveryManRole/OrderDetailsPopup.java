@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class OrderDetailsPopup extends javax.swing.JPanel {
 
