@@ -69,7 +69,7 @@ public class OrderPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setMinimumSize(new java.awt.Dimension(394, 281));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
