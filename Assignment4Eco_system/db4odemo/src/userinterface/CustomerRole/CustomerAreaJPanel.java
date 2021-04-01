@@ -45,7 +45,7 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         orderButton = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         viewButton.setBackground(new java.awt.Color(255, 255, 255));
         viewButton.setText("View Orders");
@@ -63,6 +63,7 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Verdana", 1, 13)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Customer Dashboard");
 
@@ -71,23 +72,27 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(orderButton)
-                    .addComponent(viewButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(559, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(43, 43, 43)
+                        .addComponent(orderButton))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(viewButton, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1))))
+                .addContainerGap(525, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addGap(33, 33, 33)
                 .addComponent(jLabel1)
-                .addGap(51, 51, 51)
+                .addGap(18, 18, 18)
                 .addComponent(orderButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(viewButton)
-                .addContainerGap(149, Short.MAX_VALUE))
+                .addContainerGap(174, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

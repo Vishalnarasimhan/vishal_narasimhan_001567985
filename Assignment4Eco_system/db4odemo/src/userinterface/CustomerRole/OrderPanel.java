@@ -90,7 +90,7 @@ public class OrderPanel extends javax.swing.JPanel {
         jTextField1 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
