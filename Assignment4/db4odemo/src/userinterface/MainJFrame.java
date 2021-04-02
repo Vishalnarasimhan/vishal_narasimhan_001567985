@@ -114,6 +114,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Password");
 
+        logoutJButton.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         logoutJButton.setText("Logout");
         logoutJButton.setEnabled(false);
         logoutJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -186,7 +187,7 @@ public class MainJFrame extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 526, Short.MAX_VALUE)
+            .addGap(0, 528, Short.MAX_VALUE)
         );
 
         container.add(jPanel2, "card2");
@@ -224,6 +225,7 @@ public class MainJFrame extends javax.swing.JFrame {
             CustomerAreaJPanel yoyo = new CustomerAreaJPanel(customer); 
             jSplitPane1.setRightComponent(yoyo);
         }
+        logoutJButton.setEnabled(true);
         //get username, password from frame
         //pass these values to Ecosystem.UserAccountDirectory.AuthenticateUser()
         //If result is not null, get the user role from the returned object and 
@@ -247,6 +249,7 @@ public class MainJFrame extends javax.swing.JFrame {
         CardLayout crdLyt = (CardLayout) container.getLayout();
         crdLyt.next(container);
         dB4OUtil.storeSystem(system);
+        jSplitPane1.setRightComponent(container);
     }//GEN-LAST:event_logoutJButtonActionPerformed
 
     private void userNameJTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_userNameJTextFieldActionPerformed
