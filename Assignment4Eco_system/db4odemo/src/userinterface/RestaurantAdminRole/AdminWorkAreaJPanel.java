@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author  kanheshreya
+ * @author  visha
  */
 public class AdminWorkAreaJPanel extends javax.swing.JPanel {
     
@@ -44,7 +44,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         MenuButton = new javax.swing.JButton();
         orderButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setPreferredSize(new java.awt.Dimension(692, 303));
 
         jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N

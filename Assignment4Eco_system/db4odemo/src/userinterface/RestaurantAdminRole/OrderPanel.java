@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class OrderPanel extends javax.swing.JPanel {
     
@@ -78,7 +78,7 @@ public class OrderPanel extends javax.swing.JPanel {
 
         jLabel3.setText("Available Delivery Men");
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setPreferredSize(new java.awt.Dimension(407, 303));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

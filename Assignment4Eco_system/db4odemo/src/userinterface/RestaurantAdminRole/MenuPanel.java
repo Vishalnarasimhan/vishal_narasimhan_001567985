@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class MenuPanel extends javax.swing.JPanel {
     
@@ -77,7 +77,7 @@ public class MenuPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setPreferredSize(new java.awt.Dimension(407, 303));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         add(NameField, new org.netbeans.lib.awtextra.AbsoluteConstraints(98, 212, 138, -1));

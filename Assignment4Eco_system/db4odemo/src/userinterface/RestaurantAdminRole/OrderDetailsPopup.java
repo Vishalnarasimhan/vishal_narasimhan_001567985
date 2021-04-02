@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class OrderDetailsPopup extends javax.swing.JPanel {
 
@@ -72,7 +72,7 @@ public class OrderDetailsPopup extends javax.swing.JPanel {
         jTextField9 = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(153, 0, 0));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
