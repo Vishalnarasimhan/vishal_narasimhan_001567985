@@ -9,7 +9,7 @@ import Business.EcoSystem;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class UpdateRestaurantJPanel extends javax.swing.JPanel {
 
@@ -36,7 +36,7 @@ public class UpdateRestaurantJPanel extends javax.swing.JPanel {
         jLabel8 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Restaurant Name");

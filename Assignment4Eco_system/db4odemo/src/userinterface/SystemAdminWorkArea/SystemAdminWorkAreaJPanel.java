@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
     
@@ -43,7 +43,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         deleteButton = new javax.swing.JButton();
         viewButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Managers", "Delivery Men", "Customers", "Restaurants" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {

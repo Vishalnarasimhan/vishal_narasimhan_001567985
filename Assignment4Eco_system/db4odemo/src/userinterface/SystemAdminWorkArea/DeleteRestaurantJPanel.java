@@ -9,7 +9,7 @@ import Business.EcoSystem;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class DeleteRestaurantJPanel extends javax.swing.JPanel {
 
@@ -34,7 +34,7 @@ public class DeleteRestaurantJPanel extends javax.swing.JPanel {
         jLabel8 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));

@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class viewJPanel extends javax.swing.JPanel {
 
@@ -71,7 +71,7 @@ public class viewJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         resultText = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
 
         resultText.setEditable(false);
         resultText.setColumns(20);

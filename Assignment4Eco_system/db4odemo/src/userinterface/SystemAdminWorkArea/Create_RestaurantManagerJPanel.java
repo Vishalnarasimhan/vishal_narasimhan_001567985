@@ -13,7 +13,7 @@ import Business.UserAccount.UserAccount;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class Create_RestaurantManagerJPanel extends javax.swing.JPanel {
 
@@ -46,7 +46,7 @@ public class Create_RestaurantManagerJPanel extends javax.swing.JPanel {
         jLabel8 = new javax.swing.JLabel();
         jTextField6 = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setForeground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

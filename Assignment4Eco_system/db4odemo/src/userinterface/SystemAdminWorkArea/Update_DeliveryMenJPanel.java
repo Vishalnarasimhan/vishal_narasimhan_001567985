@@ -11,7 +11,7 @@ import Business.UserAccount.User;
 
 /**
  *
- * @author kanheshreya
+ * @author visha
  */
 public class Update_DeliveryMenJPanel extends javax.swing.JPanel {
 
@@ -46,7 +46,7 @@ public class Update_DeliveryMenJPanel extends javax.swing.JPanel {
         jTextField8 = new javax.swing.JTextField();
         jTextField9 = new javax.swing.JTextField();
 
-        setBackground(new java.awt.Color(153, 0, 0));
+        setBackground(new java.awt.Color(0, 153, 153));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
